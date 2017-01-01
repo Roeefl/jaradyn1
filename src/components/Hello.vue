@@ -3,7 +3,7 @@
     <hr/>
     <div class="form-group">
       <h1>I am the Hello component</h1>
-      <h2>{{formData.name}}</h2>
+      <h2>I show the current value in formData.value: {{formData.value}}</h2>
       <input type="text" class="form-control" v-model="formData.value" :name="formData.name">
     </div>
     <hr/>
